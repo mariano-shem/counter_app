@@ -8,9 +8,10 @@ const increment = () => {
 }
 
 function save() {
-  const breakTag = document.createElement("br")
-  saveEl.append(count, " Counts", breakTag)
-  count = 0
-  countEl.textContent = count
-
+  if (count != 0) {
+    const breakTag = document.createElement("br")
+    saveEl.append(count, " Counts", breakTag)
+    count = 0
+    countEl.textContent = count
+  }
 }
