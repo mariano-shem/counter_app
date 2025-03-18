@@ -3,4 +3,4 @@
 Simple counter app using HTML, CSS, and Javascript.
 
 # Try the app
-[Netlify] (https://msdev-counter.netlify.app/)
+[Netlify](https://msdev-counter.netlify.app/)
